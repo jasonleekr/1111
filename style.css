@@ -1,0 +1,27 @@
+.cute-alert {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #FF85A3; /* 파스텔 핑크 */
+    animation: sparkle 1.5s infinite alternate;
+}
+
+@keyframes sparkle {
+    0% {
+        transform: scale(1);
+        text-shadow: none;
+    }
+    100% {
+        transform: scale(1.1);
+        text-shadow: 0 0 10px #FF85A3, 0 0 15px #FF85A3;
+    }
+}
+
+.game-box {
+    background-color: #FFF0F5; /* 라이트 핑크 배경색 */
+    /* ... (기존 스타일 유지) ... */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #FFF0F5, #FFD1E8); /* 파스텔 핑크 그라디언트 */
+}
